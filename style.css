@@ -213,7 +213,7 @@ body {
 }
 
 .main-content__left-advantages-list li::before {
-  content: "✔";
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -221,15 +221,16 @@ body {
   width: 22px;
   height: 22px;
   background-color: var(--primary-color);
-  color: #fff !important;
   border-radius: 50%;
   font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-fill-color: #fff !important;
+
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'><path d='M20.285 6.708l-11.393 11.392-5.285-5.285 1.414-1.414 3.871 3.871 9.979-9.979z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px 14px;
 
 }
 
