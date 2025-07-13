@@ -228,6 +228,8 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+
 }
 
 .main-content__left-contacts {
