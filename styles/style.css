@@ -206,6 +206,10 @@ body {
     line-height: 1.2em;
 }
 
+.titleH2-break {
+  display: none;
+}
+
 .main-content__left-advantages-list {
   list-style: none;
   padding: 0;
@@ -1608,6 +1612,10 @@ h5 {
   }
   h2 {
     font-size: 13px;
+  }
+
+  .titleH2-break {
+    display: block;
   }
 
   .main-content__left-advantages-list li {
