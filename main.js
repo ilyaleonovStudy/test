@@ -171,5 +171,3 @@ let swiperExample = new Swiper(".example-slider", {
 AOS.init({
     duration: 1000,
 });
-
-
