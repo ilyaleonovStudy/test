@@ -1,22 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Маникюр Троицк | Подология Троицк | Людмила Анатольевна</title>
-    <link rel="stylesheet" href="./normalize.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Маникюр • Педикюр • Подология в Троицке — Свиридова Людмила</title>
+
+    <!-- <meta> теги -->
+    <meta name="description" content="Лучший маникюр и педикюр с элементами подологии в городе Троицке (Челябинская область). Свиридова Людмила Анатольевна — опытный мастер. Жду на приёме!">
+
+    <meta name="keywords" content="маникюр Троицк, подология Троицк, подолог Челябинская область, Свиридова Людмила Анатольевна, мастер маникюра, уход за ногами, лечение ног, подолог Троицк, подолог Свиридова, аппаратный педикюр, грибок ногтей, вросший ноготь, курсы подолога, запись на маникюр, услуги подолога">
+    <meta name="author" content="Свиридова Людмила Анатольевна">
+    <meta property="og:title" content="Маникюр • Педикюр • Подология в Троицке — Свиридова Людмила">
+    <meta property="og:description" content="Лучший маникюр и педикюр с элементами подологии в городе Троицке (Челябинская область). Свиридова Людмила Анатольевна — опытный мастер. Жду на приёме!">
+
+    <!-- Open Graph (для соцсетей) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ваш-домен.ру/">
+    <meta property="og:image" content="./assets/img/logo.png">
+    <meta property="og:locale" content="ru_RU">
+
+    <!--  Twitter Cards  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Маникюр • Педикюр • Подология в Троицке — Свиридова Людмила">
+    <meta name="twitter:description" content="Лучший маникюр и педикюр с элементами подологии в городе Троицке (Челябинская область). Свиридова Людмила Анатольевна — опытный мастер. Жду на приёме!">
+    <meta name="twitter:image" content="./assets/img/logo.png">
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Свиридова Людмила Анатольевна",
+      "jobTitle": "Специалист по маникюру и педикюру с элементами подологии",
+      "description": "Лучший маникюр и педикюр с элементами подологии в городе Троицке (Челябинская область). Свиридова Людмила Анатольевна — опытный мастер. Жду на приёме!",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Троицк",
+        "addressRegion": "Челябинская область",
+        "addressCountry": "Россия"
+      },
+      "url": "https://ваш-домен.ру/",
+      "image": "https://ваш-домен.ру/assets/img/logo.png",
+      "sameAs": [
+        "https://vk.com/ваш_профиль"
+      ]
+    }
+    </script>
+
     
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   </head>
-  <body>
+<body>
 <header id="header" class="header">
   <div class="header__container">
     <a href="/" class="header__logo-link">
       <div class="header__logo-img"></div>
       <div class="header__logo-text">
-        <span class="header__logo-title">Людмила Анатольевна</span>
-        <span class="header__logo-subtitle">Специалист по маникюру и подологии</span>
+        <span class="header__logo-title">Свиридова Людмила Анатольевна</span>
+        <span class="header__logo-subtitle">Специалист по маникюру и педикюру с элементами подологии</span>
       </div>
     </a>
 
@@ -45,13 +90,13 @@
       <div class="main-content__container">
         <div class="main-content__wrapper">
           <div class="main-content__left">
-            <div class="main-content__left-wrapper">
+            <div class="main-content__left-wrapper" >
               <div class="main-content__left-headlines">
-                <h1 class="main-content__left-title titleH1">
-                  Людмила Анатольевна
+                <h1 class="main-content__left-title titleH1" >
+                  Свиридова Людмила Анатольевна
                 </h1>
                 <h2 class="main-content__left-subTitle titleH2">
-                  Специалист по маникюру и подологии
+                  Специалист по маникюру и педикюру с элементами подологии
                 </h2>
               </div>
 
@@ -65,13 +110,13 @@
               </div>
 
               <div class="main-content__left-contacts">
-                <a data-main-btn="mainBtn" class="main-content__left-contacts-mainBtn" target="_blank">Записаться!</a>
+                <a data-main-btn="mainBtn" class="main-content__left-contacts-mainBtn" target="_blank">Записаться в WhatsApp!</a>
                 <div class="main-content__left-contacts-list">
-                  <a data-second-btn="secondBtn" class="main-content__left-contacts-secondBtn"><span>Вконтакте</span></a>
-                  <a data-third-btn="thirdBtn"  class="main-content__left-contacts-secondBtn" href=""><span>Телефон</span></a>
+                  <a data-second-btn="secondBtn" class="main-content__left-contacts-secondBtn"><span>Записаться в VK</span></a>
+                  <a data-third-btn="thirdBtn"  class="main-content__left-contacts-secondBtn" href=""><span>Позвонить</span></a>
                 </div>
                 <div class="main-content__left-contacts-footnote">
-                  <img src="./assets/arrow-main.png" alt="">
+                  <img src="./assets/img/arrow-main.png" alt="Стрелка для записи к мастеру">
                   <span>Связь со мной!</span>
                 </div>
               </div>
@@ -82,17 +127,17 @@
 
               <div class="main-content__right-photo-wrapper">
                 <div class="main-content__right-photo-circle"></div>
-                <img src="./assets/main-image.png" alt="Людмила" class="main-content__right-photo-img" />
-                <div class="main-content__right-photo-adv">
+                <img src="./assets/img/main-image.png" alt="Маникюр и подология Троицк — Свиридова Людмила" class="main-content__right-photo-img" />
+                <div class="main-content__right-photo-adv" data-aos="zoom-in-down">
                   <span>5 +</span>
                   <span>Лет опыта</span>
                 </div>
 
-                 <div class="main-content__right-photo-adv2">
+                 <div class="main-content__right-photo-adv2" data-aos="zoom-out-up">
                   <span>1000 +</span>
                   <span>Довольных клиентов</span>
                 </div>
-                
+                                
             </div>
 
 
@@ -131,7 +176,7 @@
 
           <div class="services__price-item">
             <span>Наращивание / Выкладной френч</span>
-            <span>от 1200 ₽</span>
+            <span>от 2000 ₽</span>
           </div>
           
           <div class="services__price-item">
@@ -141,7 +186,7 @@
 
           <div class="services__price-item">
             <span>Booster Therapie</span>
-            <p>(укрепление натуральной ногтевой пластины без геля)</p>
+            <p>(укрепление ногтевой пластины без геля)</p>
             <span>1000 ₽</span>
           </div>
 
@@ -178,9 +223,73 @@
         </div>
       </div>
 
+      <div class="services__price-container">
+        <div class="services__price-divider">
+          <span class="services__price-divider-text">Подология</span>
+        </div>
+        
+        <div class="services__price-list">
+          <div class="services__price-item">
+            <span>Пакет «Подо 1»</span>
+            <span>2100 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Пакет «Подо 2» (трещины / гипрекератоз)</span>
+            <span>2300 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Пакет «Подо 3» (глубокие трещины, деформация нп)</span>
+            <span>2500 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Обработка одного пальца мозоль / онихолизис / бородавка</span>
+            <span>500 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>От двух до четырех пальцев</span>
+            <span>800 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Более четырех пальцев</span>
+            <span>1000 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Вросший ноготь (тампонирование+ас повязка)</span>
+            <span>1200 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Титановая нить большой палец</span>
+            <span>2500 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Со второго по пятый палец</span>
+            <span>1000 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Снятие титановой нити</span>
+            <span>500 ₽</span>
+          </div>
+
+          <div class="services__price-item">
+            <span>Врастающий ноготь тампонада (1шт)</span>
+            <span>200 ₽ </span>
+          </div>
+
+        </div>
+      </div>
+
       <div class="services__price-divider no-margin"></div>
 
-      <a data-main-btn="mainBtn"  class="main-content__left-contacts-mainBtn for-others">Записаться!</a>
+      <a data-main-btn="mainBtn"  class="main-content__left-contacts-mainBtn for-others">Записаться в WhatsApp!</a>
 
     </div>
   </div>
@@ -191,11 +300,11 @@
       <div class="about__container">
         <div class="about__wrapper">
           <div class="about__left">
-            <div class="about__left-wrapper">
+            <div class="about__left-wrapper" >
               <div class="about__left-headlines">
                 <h4>Обо мне</h4>
                 <span class="about__left-subtitle">
-                    <b>Меня зовут Людмила Анатольевна</b> — я мастер ногтевого сервиса и сертифицированный подолог. Люблю своё дело и постоянно в нём расту. 
+                    <b>Меня зовут Людмила Свиридова</b> — я мастер ногтевого сервиса и сертифицированный подолог. Люблю своё дело и постоянно в нём расту. 
                     Регулярно прохожу обучение, повышаю квалификацию и слежу за новыми технологиями в области ногтевого сервиса и подологии. 
                     В работе всегда опираюсь на три принципа: качество, безопасность и индивидуальный подход. 
                     <br><br>
@@ -211,7 +320,7 @@
             <div class="about__right-wrapper">
               <div class="about__right-photo-wrapper">
                 <div class="about__right-photo-circle"></div>
-                <img src="/" alt="" class="about__right-photo-img" />
+                <img src="/" alt="Маникюр и подология Троицк — Свиридова Людмила" class="about__right-photo-img" />
             </div>
             </div>
           </div>
@@ -241,14 +350,14 @@
             <div class="contact__left-wrapper">
               <div class="contact__left-headlines">
                 <h6>Контакты</h6>
-                <span class="contact__left-subtitle">Троицк, ул. Мясницкая, дом 1, офис 72</span>
-                <span class="contact__left-subtitle">Пн-вс: 9:00 – 22:00</span>
+                <span class="contact__left-subtitle">г. Троицк Челябинской области, ул Гагарина 14.</span>
+                <span class="contact__left-subtitle">Пн-вс: по предварительной записи</span>
 
               <div class="main-content__left-contacts contact__left-contacts">
-                <a data-main-btn="mainBtn" class="main-content__left-contacts-mainBtn" target="_blank">Записаться!</a>
+                <a data-main-btn="mainBtn" class="main-content__left-contacts-mainBtn" target="_blank">Записаться в WhatsApp!</a>
                 <div class="main-content__left-contacts-list">
-                  <a data-second-btn="secondBtn" class="main-content__left-contacts-secondBtn" ><span>Вконтакте</span></a>
-                  <a data-third-btn="thirdBtn" class="main-content__left-contacts-secondBtn" ><span>Телефон</span></a>
+                  <a data-second-btn="secondBtn" class="main-content__left-contacts-secondBtn" ><span>Записаться в VK</span></a>
+                  <a data-third-btn="thirdBtn" class="main-content__left-contacts-secondBtn" ><span>Позвонить</span></a>
                 </div>
               </div>
 
@@ -258,7 +367,7 @@
           </div>
           <div class="contact__right">
             <div class="contact__right-wrapper">
-              <iframe class="contact__right-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A72d5f6d63612436da7e2effac520b9ba0f5732fac08cb5923947525050fefb77&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A03d69637c564fb863f221b1e7111ec016affbbd5f998c141189f6941a91c6b98&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
             </div>
           </div>
         </div>
@@ -267,16 +376,24 @@
 
 <footer class="footer">
   <div class="footer__container">
-    <span class="footer-text" style="font-weight: 600;">ИП Свиридова Людмила Анатольевна</span>
     <div class="footer-text__container">
-      <a class="footer-text" href="">Политика конфиденциальности</a>
-      <a class="footer-text" href="">Политика обработки файлов Cookie</a>
+      <a class="footer-text" href="./privacy.html" target="_blank">Политика конфиденциальности</a>
+      <!-- <a class="footer-text" href="">Политика обработки файлов Cookie</a> -->
     </div>
-    <span class="footer-text" style="font-style: italic;"><i>Авторское право © 2025</i></span>
+    <span class="footer-text" style="font-style: italic;"><i>© 2025 Свиридова Людмила Анатольевна. Все права защищены.</i></span>
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="main.js" defer></script>
+<div class="cookie-banner" id="cookie-banner" style="display: flex;" >
+    <p>
+      Мы используем файлы cookie для улучшения работы сайта. Оставаясь на сайте, вы соглашаетесь с использованием куки.
+    </p>
+    <button id="accept-cookies">Согласен(а)</button>
+</div>
+
+<script src="./scripts/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script src="./main.js" defer></script>
 </body>
 </html>
