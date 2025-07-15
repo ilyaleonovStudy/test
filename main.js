@@ -23,7 +23,7 @@
 });
 
 
-const imageFolder = './assets/example-img/';
+const imageFolder = 'assets/example-img/';
 
 const imgExample = [
     'example-1.jpg',
@@ -58,7 +58,7 @@ const container = document.querySelector('.example__img-container');
   swiperDiv.appendChild(wrapperDiv);
   container.appendChild(swiperDiv);
 
-const imgPath = './assets/certificate-img/';
+const imgPath = 'assets/certificate-img/';
 
   const imgCertificate = [
     'certificate-1.jpg',
@@ -103,7 +103,7 @@ const imgPath = './assets/certificate-img/';
   imgCertificate.forEach(fileName => {
     const slide = document.createElement('div');
     slide.className = 'swiper-slide advantages-slide';
-    slide.style.background = `url('${imgPath + fileName}') no-repeat center center`;
+    slide.style.background = `url('/${imgPath + fileName}') no-repeat center center`;
     slide.style.backgroundSize = 'cover';
     slide.style.height = '200px';
 
@@ -171,3 +171,5 @@ let swiperExample = new Swiper(".example-slider", {
 AOS.init({
     duration: 1000,
 });
+
+
