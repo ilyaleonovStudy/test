@@ -568,7 +568,7 @@ h3,h4,h5,h6 {
 
 .about__container {
   max-width: 1600px;
-  height: 750px;
+  height: auto;
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -597,7 +597,7 @@ h4 {
 
 .about__left {
   position: relative;
-  width: 50%;
+  width: 60%;
   border-radius: 20px 0px 0px 20px;
 }
 .about__left-wrapper {
@@ -659,17 +659,18 @@ h4 {
 }
 
 .about__right-photo-img {
-  position: absolute;
-  bottom: -23px;
-  right: -54px;
-  height: 110%;
-  z-index: 2;
-  object-fit: contain;
+    position: absolute;
+    bottom: -21px;
+    right: -2px;
+    height: 130%;
+    z-index: 2;
+    object-fit: contain;
 }
 
 .about__right {
   width: 50%;
   padding-right: 50px;
+  padding-top: 40px;
 }
 
 
@@ -983,14 +984,6 @@ h5 {
       gap: 6px;
     }
 
-    h1 {
-      /* font-size: 44px; */
-    }
-
-    h2 {
-      /* font-size: 22px; */
-    }
-
     .main-content__left-advantages-list li {
       margin-bottom: 3px;
       font-size: 20px;
@@ -1079,6 +1072,10 @@ h5 {
     .about__container {
       height: auto;
     }
+
+    .about__left {
+      width: 55%;
+    }
   
     .about__left-wrapper {
       padding: 60px 0px 60px 50px;
@@ -1093,7 +1090,8 @@ h5 {
     }
 
     .about__right-photo-wrapper {
-      display: none;
+      width: 380px;
+      height: 380px;
     }
 
     /* 4 block example */
@@ -1224,6 +1222,19 @@ h5 {
 
   .about__left-subtitle {
     font-size: 16px;
+  }
+
+  .about__right-photo-wrapper {
+    width: 340px;
+    height: 340px;
+  }
+
+  .about__right-photo-circle {
+    border: 15px solid #F9E6EC;
+  }
+
+  .about__right-photo-img {
+    bottom: -16px;
   }
 
   /* 4 block example */
@@ -1379,8 +1390,20 @@ h5 {
     flex-direction: column;
   }
 
+
+
   .about__left {
     width: 100%;
+  }
+
+  .about__right {
+    width: 100%;
+    padding-right: 0;
+    padding: 100px 0px 40px 0px;
+  }
+
+  .about__right-wrapper {
+    justify-content: center
   }
 
   .about__left-wrapper {
@@ -1765,6 +1788,27 @@ h5 {
     font-size: 12px;
   }
 
+  .about__right-photo-wrapper {
+    width: 230px;
+    height: 230px;
+  }
+
+  .about__right {
+      padding: 60px 0px 40px 0px;
+  }
+
+  .about__right-photo-img {
+    bottom: -11px;
+    right: -2px;
+  }
+  .about__right-photo-circle {
+    border: 10px solid #F9E6EC;
+  }
+
+  .about__right-wrapper {
+    padding-right: 20px;
+  }
+
   .advantages-slide {
     border-radius: 12px;
   }
@@ -1891,4 +1935,4 @@ h5 {
   .footer__container {
     padding: 10px;
   }
-}
+} 
