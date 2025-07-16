@@ -176,3 +176,17 @@ let swiperExample = new Swiper(".example-slider", {
 }
 });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById("cookie-banner");
+    const acceptBtn = document.getElementById("accept-cookies");
+
+    // Проверка, сохранялось ли уже согласие
+    if (localStorage.getItem("cookiesAccepted") === "true") {
+      banner.style.display = "none";
+    }
+
+    acceptBtn.addEventListener("click", function () {
+      localStorage.setItem("cookiesAccepted", "true");
+      banner.style.display = "none";
+    });
+  });
