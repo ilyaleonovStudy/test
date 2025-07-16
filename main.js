@@ -23,7 +23,7 @@
 });
 
 
-const imageFolder = 'assets/example-img/';
+const imageFolder = './assets/example-img/';
 
 const imgExample = [
     'example-1.jpg',
@@ -66,7 +66,7 @@ const container = document.querySelector('.example__img-container');
   swiperDiv.appendChild(wrapperDiv);
   container.appendChild(swiperDiv);
 
-const imgPath = 'assets/certificate-img/';
+const imgPath = './assets/certificate-img/';
 
   const imgCertificate = [
     'certificate-1.jpg',
